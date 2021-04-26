@@ -1,0 +1,11 @@
+<?php
+
+namespace {{ namespace }};
+
+class {{ class }} extends Dictionary
+{
+    public static function getDictionary(): array
+    {
+        return [];
+    }
+}

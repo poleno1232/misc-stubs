@@ -1,0 +1,18 @@
+{
+    "name": "polion1232/misc-stubs",
+    "description": "Small, easy way to create for services and dictionaries creation",
+    "type": "library",
+    "license": "Free",
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "~6.0|~7.0|~8.0"
+    },
+    "require-dev": {
+        "laravel/framework": "~6.0|~7.0|~8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Polion1232\\MiscStubs\\": "src/"
+        }
+    }
+}
