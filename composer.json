@@ -2,7 +2,7 @@
     "name": "polion1232/misc-stubs",
     "description": "Small, easy way to create for services and dictionaries creation",
     "type": "library",
-    "license": "Free",
+    "license": "MiT",
     "minimum-stability": "dev",
     "require": {
         "illuminate/support": "~6.0|~7.0|~8.0"
