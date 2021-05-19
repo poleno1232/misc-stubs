@@ -4,9 +4,6 @@
     "type": "library",
     "license": "MiT",
     "minimum-stability": "dev",
-    "require": {
-        "illuminate/support": "~6.0|~7.0|~8.0"
-    },
     "autoload": {
         "psr-4": {
             "Polion1232\\MiscStubs\\": "src/"
