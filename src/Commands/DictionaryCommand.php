@@ -4,7 +4,7 @@ namespace Polion1232\MiscStubs\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 
-class ServiceCommand extends GeneratorCommand
+class DictionaryCommand extends GeneratorCommand
 {
     /**
      * The console command name.
