@@ -25,7 +25,7 @@ class DictionaryCommand extends GeneratorCommand
      *
      * @var string
      */
-    protected $type = 'Service';
+    protected $type = 'Dircionary';
 
     public function getStub()
     {
@@ -40,6 +40,6 @@ class DictionaryCommand extends GeneratorCommand
      */
     protected function getDefaultNamespace($rootNamespace)
     {
-        return $rootNamespace . '\Services';
+        return $rootNamespace . '\Dictionaries';
     }
 }
