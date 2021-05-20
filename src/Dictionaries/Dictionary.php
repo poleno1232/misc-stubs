@@ -7,11 +7,15 @@ use Illuminate\Support\Arr;
 abstract class Dictionary
 {
     /**
+     * Returns associative array
+     *
      * @return array
      */
     abstract public static function getDictionary(): array;
 
     /**
+     * Returns value from dictionary
+     *
      * @param string|int $value
      * @param mixed|null $default
      * @return mixed
@@ -22,6 +26,8 @@ abstract class Dictionary
     }
 
     /**
+     * Returns keys
+     *
      * @return array
      */
     public static function getRange(): array
@@ -29,16 +35,13 @@ abstract class Dictionary
         return array_keys(static::getDictionary());
     }
 
+    /**
+     * Returns keys as a string using dot notation
+     *
+     * @return array
+     */
     public static function getStringRange(): string
     {
         return implode(',', static::getRange());
-    }
-
-    /**
-     * @return array
-     */
-    public static function getHeaders()
-    {
-        return array_keys(static::getDictionary());
     }
 }
