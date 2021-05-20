@@ -2,6 +2,8 @@
 
 namespace {{ namespace }};
 
+use Polion1232\MiscStubs\Dictionaries\Dictionary;
+
 class {{ class }} extends Dictionary
 {
     public static function getDictionary(): array
